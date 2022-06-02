@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Informazioni personali</h1>
+    <hr>
+    <form action="inserisci.php" method="post">
+      Nome: <input type="text" name="nome">
+      Cognome: <input type="text" name="cognome">
+      <br>
+      Maschio<input type="radio" id="m" name="sesso" value="m">
+      <br>
+      Femmina<input type="radio" id="f" name="sesso" value="f">
+      <br>
+      Sport praticati:
+      <br>
+      Nuoto <input type="checkbox" name="sport" value="nuoto">
+      Tennis <input type="checkbox" name="sport" value="tennis">
+      Calcio <input type="checkbox" name="sport" value="calcio">
+      Altro <input type="checkbox" name="sport" value="altro">
+      <legend>Provincia di residenza</legend>
+      <select name='citta'>
+      <option value="udine" selected='selected'>Udine</option>
+      <option value="milano" selected='selected'>Milano</option>
+      <option value="roma" selected='selected'>Roma</option>
+      <option value="novara" selected='selected'>Novara</option>
+      <option value="venezia" selected='selected'>Venezia</option>
+      <option value="torino" selected='selected'>Torino</option>
+      </select>
+      <br>
+      Hobby: <input type="text" name="hobby">
+      <br>
+      <input type="submit" value="Invia">
+      <input type="reset" value="Reimposta">
+    </form>
+  </body>
+  <footer>
+      </footer>
+</html>

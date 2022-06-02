@@ -1,0 +1,5 @@
+- tabelle di routing (spiegazione)
+- drone + scheda di rete
+- diagramma di pert
+- protocolli ( mobile ip: home adress - care of address)
+- altervista caricamento sito

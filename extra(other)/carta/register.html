@@ -1,0 +1,62 @@
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registrazione dati</title>
+    <link rel="stylesheet" href="./css/stile.css" type="text/css">
+  </head>
+   <div class="register">
+      <div class="row">
+        <div class="col">
+          <h4>Registrati</h4>
+          <form action="register.php" method="post">
+            Email
+            <br>
+            <input type="email" name="email" required>
+            <br>
+            Password
+            <br>
+            <input type="password" name="password" required>
+            <br>
+            Nome
+            <br>
+            <input type="text" name="nome" maxlength="15"required>
+            <br>
+            Cognome
+            <br>
+            <input type="text" name="cognome" maxlength="30" required>
+            <br>
+            Codice Fiscale
+            <br>
+            <input type="text" name="cf" minlength="16" maxlength="16" required>
+            <br>
+            Eta
+            <br>
+            <input type="number" name="eta" required>
+            <br>
+            Data di nascita
+            <br>
+            <input type="date" name="datan" required>
+            <br>
+            Sesso
+            <br>
+             M
+            <input type="radio" id="m" name="sex" value="m">
+            <br>
+             F  
+            <input type="radio" id="f" name="sex" value="f">
+            <br>
+            Indirizzo
+            <br>
+            <input type="text" name="indirizzo" required>
+            <br>
+            Cellulare
+            <br>
+            <input type="text" name="numcell" minlength="10" maxlength="10" required>
+            <br>
+            Reddito annuo
+            <br>
+            <input type="number" name="reddito" required>
+            <br>
+            <input type="submit" value="Registrati">
+          </form>
+        </div>

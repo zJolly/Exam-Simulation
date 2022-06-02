@@ -1,0 +1,12 @@
+- tipologie di rete fisiche e logiche
+- clitent-server / peer to peer
+-  lan - wal - man ecc...
+- iso/osi 7 livelli
+- tcp/ip
+- vari oggetti utilizati per una rete (switch, router, hub) e le loro caratteristiche
+- tipologie di fibra ottica e la composizione di essa
+- cablaggio strutturato
+- tipi trasmissione ... uniast, multicast, broadcast
+- STP: protocolli switch 
+- VLAN (94)
+- mplas (liv.3 network)
